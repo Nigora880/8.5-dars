@@ -1,0 +1,32 @@
+{
+    "headerContent":{
+        "marketplace":"Do'kon",
+        "rankings":"Reytinglar",
+        "connectWallet":"Hamyon ulash",
+        "signUp":"Ro'yxattan o'tish"
+    },
+    "heroContent": {
+		"title": "Raqamli san'atni kashf eting va NFTlarni to'plang",
+		"description": "Figma uchun Anima bilan yaratilgan NFT bozor interfeysi. 20 mingdan ortiq NFT rassomlarining san'atini to'plang, sotib oling va soting.",
+		"heroButton": "Boshlash",
+		"totalSale": "Total Sale",
+		"auctions": "Jami savdo",
+		"artists": "Rassomlar",
+		"imageTitle": "Kosmosdagi sayohat"
+	},
+
+    "FooterContent": {
+		"text1": "Figma uchun Anima yordamida yaratilgan NFT marketpleys UI.",
+		"text2": "Hamjamiyatimizga qo'shiling",
+		"marketplace": "Marketpleys",
+		"rankings": "Reytinglar",
+		"connectWallet": "Hamyonni ulash",
+		"text3": "Haftalik xabarnomamizga obuna bo'ling",
+		"text4": "Eksklyuziv aksiyalar va yangilanishlarni to'g'ridan-to'g'ri pochtangizga oling."
+	},
+	"sendEmailContent": {
+		"placeholder":"Emailingizni kiriting",
+		"button":"Obuna bo'lish"
+	}
+
+}
