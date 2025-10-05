@@ -1,13 +1,4 @@
-export interface CollectionType {
-        id:string,
-        title:string,
-        images:string[],
-        price:string,
-        highestBid: null | any,
-        createdAt:string,
-        updatedAt:string,
-        creatorId:string,
-        creator: {
+export interface Creatortype {
             id:string,
             username:string,
             email:string,
@@ -22,5 +13,7 @@ export interface CollectionType {
             instagramAccLink:string,
             createdAt:string,
             updatesAt:string;
-        }
-    }
+            createdNFTs:any;
+            ownedNFTs:any;
+            collections:any;
+}
