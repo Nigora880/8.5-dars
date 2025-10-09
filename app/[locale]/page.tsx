@@ -1,16 +1,18 @@
-import { Auctions, Categories, Creators, Hero, NFT } from "@/modules";
-import Collections from "@/modules/Collection";
-// import Creators from "@/modules/Creators";
+import { Auctions, Categories, Collection, Creators, Hero, NFT, Weekly, Works } from '@/modules'
 
-export default function Home() {
+const page = () => {
   return (
-  <main>
-    <Hero/>
-    <Collections/>
-    <Creators/>
-    <Categories/>
-    <NFT/>
-    <Auctions/>
-  </main>
-  );
+    <main>
+      <Hero/>
+      <Collection/>
+      <Creators/>
+      <Categories/>
+      <NFT/>
+      <Auctions/>
+      <Works/>
+      <Weekly/>
+    </main>
+  )
 }
+
+export default page

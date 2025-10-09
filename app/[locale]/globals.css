@@ -1,32 +1,40 @@
 @import "tailwindcss";
 
-body{
-  background-color: #2B2B2B;
+body {
+    background-color: #2B2B2B
 }
 
-.containers{
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
+.containers {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-
-.collection-img-wrapper:hover > img{
-   transform: scale(1.2);
+.collection-img-wrapper:hover>img {
+    transform: scale(1.2);
 }
 
-.lang-wrapper:hover > .lang-inner {
-  height: 80px;
+.lang-wrapper:hover>.lang-inner {
+    height: 80px;
 }
 
-.category-card:hover > div > .category-img{
-  filter: blur(0) !important;
-  transform: scale(1.2);
+.category-card:hover>div>.category-img {
+    transform: scale(1.2);
+    filter: blur(0) !important;
 }
 
-.category-card:hover > div > .category-icon{
- transform: scale(0);
+.category-card:hover>div>.category-icon {
+    transform: scale(0);
 }
-.nft-wrapper:hover > div > img {
-transform: scale(1.2);
+
+.nft-wrapper:hover>div>img {
+    transform: scale(1.2);
 }
+
+/* .singleCreatorImg{
+    background-image: url(../../public/creatorImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    background-position: top;
+} */

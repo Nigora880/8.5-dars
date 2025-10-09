@@ -1,0 +1,65 @@
+{
+    "headerContent": {
+        "marketplace": "Маркетплейс",
+        "rankings": "Рейтинги",
+        "connectWallet": "Подключить кошелёк",
+        "signUp": "Pегистрация"
+    },
+    "heroContent": {
+        "discoverDigitalArt&CollectNfts": "Откройте для себя цифровое искусство и собирайте NFT",
+        "nftMarketplaceUICreatedWithAnimaForFigmaCollectBuyAndSellArtFromMoreThan20kNFTArtists": "NFT маркетплейс, созданный с помощью Anima для Figma. Собирайте, покупайте и продавайте искусство от более чем 20 000 NFT-художников.",
+        "getStarted": "Начать",
+        "spaceWalking": "Прогулка в космосе",
+        "totalSale": "Общая продажа",
+        "auctions": "Аукционы",
+        "artists": "Художники",
+        "animakid": "Анимакид"
+    },
+    "collectionContent": {
+        "trendingCollection": "Популярная коллекция",
+        "checkoutOurWeeklyUpdatedTrendingCollection": "Ознакомьтесь с нашей еженедельно обновляемой популярной коллекцией."
+    },
+    "creatorsContent": {
+        "topCreators": "Топ авторы",
+        "checkoutTopRatedCreatorsOnTheNFTMarketplace": "Познакомьтесь с самыми высоко оценёнными создателями на NFT-маркетплейсе",
+        "viewRankings": "Посмотреть рейтинги"
+    },
+    "footerContent": {
+        "nftMarketplaceUICreatedWithAnimaForFigma": "Интерфейс NFT-маркетплейса создан с помощью Anima для Figma.",
+        "joinOurCommunity": "Присоединяйтесь к нашему сообществу",
+        "explore": "Исследовать",
+        "marketplace": "Маркетплейс",
+        "rankings": "Рейтинги",
+        "connectWallet": "Подключить кошелёк",
+        "joinOurWeeklyDigest": "Подпишитесь на наш еженедельный дайджест",
+        "getExclusivePromotions&UpdatesStraightToYourInbox": "Получайте эксклюзивные акции и обновления прямо на вашу почту.",
+        "enterYourEmailHere": "Введите ваш email здесь",
+        "subscribe": "Подписаться",
+        "nFTMarketUseThisTemplateFreely": "NFT Market. Используйте этот шаблон свободно."
+    },
+    "categoriesContent": {
+        "browseCategories": "Просмотреть категории"
+    },
+    "nftContnent": {
+        "discoverMoreNfts": "Откройте больше NFT",
+        "exploreNewTrendingNfts": "Изучайте новые трендовые NFT",
+        "seeAll": "Посмотреть все"
+    },
+    "auctionContent": {
+        "seeNft": "Посмотреть NFT"
+    },
+    "worksContent": {
+        "howItWorks": "Как это работает",
+        "findOutHowToGetStarted": "Узнайте, как начать",
+        "setupYourWallet": "Настройте свой кошелёк",
+        "setUpYourWalletOfChoice": "Выберите и настройте свой кошелёк. Подключите его к Animarket, нажав на значок кошелька в правом верхнем углу.",
+        "createCollection": "Создайте коллекцию",
+        "uploadYourWork": "Загрузите свою работу и настройте коллекцию. Добавьте описание, ссылки на соцсети и минимальную цену.",
+        "startEarning": "Начните зарабатывать",
+        "chooseBetweenAuctions": "Выберите между аукционами и фиксированной ценой. Начните зарабатывать, продавая свои NFT или обмениваясь другими."
+    },
+    "weeklyContent": {
+        "joinOurWeeklyDigest": "Подпишитесь на нашу еженедельную рассылку",
+        "getExclusivePromotions": "Получайте эксклюзивные акции и обновления прямо на вашу почту."
+    }
+}

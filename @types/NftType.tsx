@@ -1,17 +1,17 @@
-import { Creatortype } from "./CreatorType";
+import { CreatorType } from "./CreatorType";
 
-export interface NFTType {
+export interface NftType {
     id:string,
     title:string,
-    image:string[],
+    image:string,
     price:string,
-    highestBid: null | any,
+    highestBid:any,
     createdAt:string,
     updatedAt:string,
     creatorId:string,
-    ownerId:string;
-    creator:Creatortype
-    owner: {
+    ownerId:string,
+    creator:CreatorType,
+    owner:{
         id:string,
         username:string,
         email:string,
@@ -20,12 +20,11 @@ export interface NFTType {
         role:string,
         bio:string,
         globeAccLink:string,
-        discordAccLink:string,
+        discorAccLink:string,
         youtubeAccLink:string,
         twitterAccLink:string,
-        instagramAccLink:string,
         createdAt:string,
-        updatesAt:string;
+        updateAt:string
     },
     auctions: any[]
-}
+} 

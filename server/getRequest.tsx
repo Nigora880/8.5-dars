@@ -1,9 +1,8 @@
-import { API } from "@/hooks"
+import { API } from "@/hooks";
 
-export const getRequest = async (url:string) => {
+export const getRequest = async (url: string) => {
     const res = await fetch(`${API}${url}`, {
-        next: {revalidate: 60 },
-    })
-  return res.json();
+        next: { revalidate: 60 },
+    });
+    return res.json()
 }
-

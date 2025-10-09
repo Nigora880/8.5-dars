@@ -1,9 +1,9 @@
-import { getRequest } from "@/server/getRequest"
-import CollectionContent from "./CollectionContent"
+import { getRequest } from '@/server/getRequest'
+import CollectionContent from './CollectionContent'
 
-const Collections = async () => {
+const Collection = async () => {
     const collections = await getRequest("/collections")
-  return <CollectionContent collections={collections.data}/>
+    return <CollectionContent collections={collections.data} />
 }
 
-export default Collections
+export default Collection

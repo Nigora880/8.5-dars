@@ -1,20 +1,22 @@
-import React, { FC, MouseEventHandler, ReactNode } from 'react'
+import { FC, ReactNode,MouseEventHandler } from 'react'
 
 interface ButtonType {
-    classList?:string,
-    iconPosition?:"left" | "right",
-    children:ReactNode,
-    icon?:ReactNode,
-    onClick?:MouseEventHandler<HTMLButtonElement>
+  classList?: string,
+  iconPosition?: "left" | "right",
+  children: ReactNode,
+  icon?: ReactNode,
+  onClick?: MouseEventHandler<HTMLButtonElement>
 }
-const Button:FC<ButtonType> = ({classList, children, icon, iconPosition, onClick}) => {
 
+const Button: FC<ButtonType> = ({ icon, iconPosition, children, classList, onClick }) => {
   return (
-    <button onClick={onClick} className={`${classList} flex py-[19px] px-[30px] gap-[12px] cursor-pointer hover:bg-transparent border-[2px] hover:text-[#A259FF] text-white rounded-[20px] border-transparent hover:border-[#A259FF] duration-300 bg-[#A259FF]`}>
-        {iconPosition == "left" && icon && icon}
+    <div>
+      <button onClick={onClick} className={`${classList} bg-[#A259FF] cursor-pointer hover:bg-transparent hover:border-[2px] hover:border-[#A259FF] border-transparent border-[2px] hover:text-[#A259FF] duration-300  text-white font-semibold text-[16px] py-[20px] px-[30px] rounded-[20px] flex items-center justify-center gap-[16px]`}>
+        {iconPosition === "left" && icon && icon}
         {children}
-        {iconPosition == "right" && icon && icon}
-    </button>
+        {iconPosition === "right" && icon && icon}
+      </button>
+    </div>
   )
 }
 

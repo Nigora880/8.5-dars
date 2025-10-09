@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
-import { notFound } from "next/navigation";
+import { Footer, Header } from "@/modules";
+import { HeroUIProvider } from "@heroui/system";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import Header from "@/modules/Header";
-import Footer from "@/modules/Footer";
 import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 
-const WorkSans = Work_Sans({
+
+const workSans = Work_Sans({
+  variable: "--font-work-sans",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "NFT market",
+  title: "NFT marketplace",
   description: "Discover digital art & Collect NFTs",
 };
 
@@ -21,26 +23,26 @@ export default async function RootLayout({
   params
 }: Readonly<{
   children: React.ReactNode;
-  params:Promise<{locale:string}>;
+  params: Promise<{ locale: string }>;
 }>) {
-
-  const {locale} = await params;
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
   return (
     <html lang={locale}>
       <head>
-         <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="/logo.svg" />
       </head>
-      <body
-        className={`${WorkSans.className} `}
-      >
-        <NextIntlClientProvider>
-          <Header/>
-           {children}
-           <Footer/>
-        </NextIntlClientProvider>
+      <body className={`${workSans.className}`}>
+        <HeroUIProvider>
+          <NextIntlClientProvider>
+            <Header />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
+        </HeroUIProvider>
       </body>
     </html>
   );
