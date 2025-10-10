@@ -13,8 +13,8 @@ const HeroContent: FC<{ auctions: AuctionType[], artists: UserType[], totalSale:
     <section className='py-[80px]'>
       <div className="containers flex flex-col gap-[40px] lg:gap-0 lg:flex-row justify-between items-center">
         <div className='w-full lg:w-[500px]'>
-          <Heading classList='!mb-[20px] !text-[28px] lg:!text-[60px] !leading-[110%]' tag='h1'>{t("discoverDigitalArt&CollectNfts")}</Heading>
-          <Text classList='!mb-[30px] !max-w-[400px] capitalize'>{t("nftMarketplaceUICreatedWithAnimaForFigmaCollectBuyAndSellArtFromMoreThan20kNFTArtists")}</Text>
+          <Heading classList='!mb-[20px] !text-[28px] lg:!text-[60px] !leading-[110%]' tag='h1'>{t("HeadingNFTMARKETPLACE")}</Heading>
+          <Text classList='!mb-[30px] !max-w-[400px] capitalize'>{t("titleNFTMARKETPLACE")}</Text>
           <div className='hidden lg:block'>
             <Button icon={<RoketaIcon />} iconPosition='left' >{t("getStarted")}</Button>
             <div className='pt-[30px] flex items-center gap-[25px]'>

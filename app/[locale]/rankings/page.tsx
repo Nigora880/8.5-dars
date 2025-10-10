@@ -2,7 +2,7 @@
 import { Heading } from "@/components";
 import { getRequest } from "@/server/getRequest";
 import { CreatorType } from "@/@types/CreatorType";
-import CreatorsPage from "./CreatorPage";
+import CreatorsPage from "../creator/[id]/UserPage";
 
 const RankingsPage = async () => {
     const response = await getRequest("/user?role=ARTIST");

@@ -1,4 +1,4 @@
-import { Auctions, Categories, Collection, Creators, Hero, NFT, Weekly, Works } from '@/modules'
+import { Auctions, Categories, Collection, Creators, Hero, NFT, Rankings, Works } from '@/modules'
 
 const page = () => {
   return (
@@ -10,7 +10,7 @@ const page = () => {
       <NFT/>
       <Auctions/>
       <Works/>
-      <Weekly/>
+      <Rankings/>
     </main>
   )
 }

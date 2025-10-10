@@ -1,8 +1,8 @@
 import { Heading, SendEmail } from "@/components"
 import { useTranslations } from "next-intl"
 
-const WeeklyContent = () => {
-    const t = useTranslations("weeklyContent")
+const RankingContent = () => {
+    const t = useTranslations("RankingContent")
 
     return (
         <section className="pt-[40px] pb-[80px]">
@@ -20,4 +20,4 @@ const WeeklyContent = () => {
     )
 }
 
-export default WeeklyContent
+export default RankingContent

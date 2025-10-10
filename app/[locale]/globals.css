@@ -38,3 +38,11 @@ body {
     height: 320px;
     background-position: top;
 } */
+
+.background-img{
+    background-image: url("../../public/SinglePage-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    background-position: center;
+}

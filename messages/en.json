@@ -6,8 +6,8 @@
         "signUp": "Sign Up"
     },
     "heroContent": {
-        "discoverDigitalArt&CollectNfts": "Discover digital art & Collect NFTs",
-        "nftMarketplaceUICreatedWithAnimaForFigmaCollectBuyAndSellArtFromMoreThan20kNFTArtists": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
+        "HeadingNFTMARKETPLACE": "Discover digital art & Collect NFTs",
+        "titleNFTMARKETPLACE": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
         "getStarted": "Get Started",
         "spaceWalking": "Space Walking",
         "totalSale": "Total Sale",
@@ -58,7 +58,7 @@
         "startEarning":"Start Earning",
         "chooseBetweenAuctions":"Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
     },
-    "weeklyContent":{
+    "RankingContent":{
         "joinOurWeeklyDigest":"Join our weekly digest",
         "getExclusivePromotions":"Get exclusive promotions & updates straight to your inbox."
     }

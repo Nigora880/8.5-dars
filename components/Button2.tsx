@@ -3,7 +3,7 @@
 import { TabButtonType } from "@/@types/tabButtonType";
 import { Heading } from "@/components";
 
-const TabButton = ({ label, active, onClick, count }: TabButtonType) => {
+const Button2 = ({ label, active, onClick, count }: TabButtonType) => {
     return (
         <button onClick={onClick} className={`w-[262px] py-[14px] text-center cursor-pointer border-b-2 ${active ? "border-[#A259FF] text-white" : "border-transparent text-[#858584]" }`}>
             <Heading tag="h3">{label}</Heading>
@@ -16,4 +16,4 @@ const TabButton = ({ label, active, onClick, count }: TabButtonType) => {
     );
 };
 
-export default TabButton;
+export default Button2;

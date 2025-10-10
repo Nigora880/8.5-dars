@@ -7,7 +7,7 @@ import Categories from "./Categories";
 import NFT from "./NFT";
 import Auctions from "./Auctions";
 import Works from "./Works";
-import Weekly from "./Weekly";
+import Rankings from "./Ranking";
 
 
-export {Header,Footer, Hero, Collection, Creators, Categories, NFT, Auctions, Works, Weekly}
+export {Header,Footer, Hero, Collection, Creators, Categories, NFT, Auctions, Works, Rankings}

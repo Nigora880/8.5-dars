@@ -1,11 +1,11 @@
 import { CustomImage, Heading, SendEmail, Text } from "@/components"
-import { DisCordIcon, InstagramIcon, TwetterIcon, YouTubeIcon } from "@/icons"
+import { DisCordIcon, InstagramIcon, TwitterIcon, YouTubeIcon } from "@/icons"
 import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { ReactNode } from "react"
 
 const Footer = () => {
-    const mediaList = [< DisCordIcon />, <YouTubeIcon />, <TwetterIcon />, <InstagramIcon />]
+    const mediaList = [< DisCordIcon />, <YouTubeIcon />, <TwitterIcon />, <InstagramIcon />]
     const t = useTranslations("footerContent")
 
     return (

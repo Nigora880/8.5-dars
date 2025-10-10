@@ -6,8 +6,8 @@
         "signUp": "Pегистрация"
     },
     "heroContent": {
-        "discoverDigitalArt&CollectNfts": "Откройте для себя цифровое искусство и собирайте NFT",
-        "nftMarketplaceUICreatedWithAnimaForFigmaCollectBuyAndSellArtFromMoreThan20kNFTArtists": "NFT маркетплейс, созданный с помощью Anima для Figma. Собирайте, покупайте и продавайте искусство от более чем 20 000 NFT-художников.",
+        "HeadingNFTMARKETPLACE": "Откройте для себя цифровое искусство и собирайте NFT",
+        "titleNFTMARKETPLACE": "NFT маркетплейс, созданный с помощью Anima для Figma. Собирайте, покупайте и продавайте искусство от более чем 20 000 NFT-художников.",
         "getStarted": "Начать",
         "spaceWalking": "Прогулка в космосе",
         "totalSale": "Общая продажа",
@@ -58,7 +58,7 @@
         "startEarning": "Начните зарабатывать",
         "chooseBetweenAuctions": "Выберите между аукционами и фиксированной ценой. Начните зарабатывать, продавая свои NFT или обмениваясь другими."
     },
-    "weeklyContent": {
+    "RankingContent": {
         "joinOurWeeklyDigest": "Подпишитесь на нашу еженедельную рассылку",
         "getExclusivePromotions": "Получайте эксклюзивные акции и обновления прямо на вашу почту."
     }

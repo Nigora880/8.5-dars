@@ -6,8 +6,8 @@
         "signUp": "Ro'yxatdan o'tish"
     },
     "heroContent": {
-        "discoverDigitalArt&CollectNfts": "Raqamli san’atni kashf eting va NFTlarni to‘plang",
-        "nftMarketplaceUICreatedWithAnimaForFigmaCollectBuyAndSellArtFromMoreThan20kNFTArtists": "NFT marketplace UI Anima for Figma yordamida yaratilgan. 20 mingdan ortiq NFT rassomlaridan san’at asarlarini to‘plang, sotib oling va soting.",
+        "HeadingNFTMARKETPLACE": "Raqamli san’atni kashf eting va NFTlarni to‘plang",
+        "titleNFTMARKETPLACE": "NFT marketplace UI Anima for Figma yordamida yaratilgan. 20 mingdan ortiq NFT rassomlaridan san’at asarlarini to‘plang, sotib oling va soting.",
         "getStarted": "Boshlash",
         "spaceWalking": "Kosmik sayr",
         "totalSale": "Umumiy savdo",
@@ -58,7 +58,7 @@
         "startEarning": "Daromad topishni boshlang",
         "chooseBetweenAuctions": "Auksion va belgilangan narxdagi savdodan birini tanlang. NFTlaringizni sotish yoki boshqalar bilan almashish orqali daromad qiling."
     },
-    "weeklyContent": {
+    "RankingContent": {
         "joinOurWeeklyDigest": "Haftalik yangiliklarimizga obuna bo‘ling",
         "getExclusivePromotions": "Eksklyuziv aksiyalar va yangiliklarni to‘g‘ridan-to‘g‘ri pochta qutingizga oling."
     }

@@ -1,11 +1,10 @@
 import { SingleCreatorType } from "@/@types/SingleCreatorType"
 import { Button, Heading, Text } from "@/components"
 import { API } from "@/hooks"
-import { CopyIcon, DisCordIcon, GlobusIcon, InstagramIcon, PlusIcon, TwetterIcon, YouTubeIcon } from "@/icons"
+import { CopyIcon, DisCordIcon, GlobusIcon, InstagramIcon, PlusIcon, TwitterIcon, YouTubeIcon } from "@/icons"
 import { getRequest } from "@/server/getRequest"
 import Image from "next/image"
 import { FC } from "react"
-import ContnetPage from "./contentPage"
 
 
 
@@ -14,12 +13,12 @@ const SingleCreator: FC<{ params: { id: string } }> = async ({ params }) => {
     const singleData: SingleCreatorType = await getRequest(`/user/${id}`)
     return (
         <section>
-            <div style={{ backgroundImage: `url(${API}/file/${singleData.image})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: "center", height: "320px" }}>
+            <div className="background-img h-[320px] w-full">
             </div>
             <div className="containers">
                 <div>
                     <div className="mt-[-60px]">
-                        <Image src={`${API}/file/${singleData.image}`} alt={singleData.username} width={120} height={120} className="rounded-full border-4 border-white" />
+                        <Image src={`${API}/file/${singleData.image}`} alt={singleData.username} width={120} height={120} className="rounded-md" />
                     </div>
                     <div className="flex justify-between py-[40px]">
                         <div className="w-[600px]">
@@ -56,7 +55,7 @@ const SingleCreator: FC<{ params: { id: string } }> = async ({ params }) => {
                                         <a href={singleData.youtubeAccLink} target="_blank" rel="noreferrer"><YouTubeIcon /></a>
                                     )}
                                     {singleData.twitterAccLink && (
-                                        <a href={singleData.twitterAccLink} target="_blank" rel="noreferrer"><TwetterIcon /></a>
+                                        <a href={singleData.twitterAccLink} target="_blank" rel="noreferrer"><TwitterIcon /></a>
                                     )}
                                     {singleData.instagramAccLink && (
                                         <a href={singleData.instagramAccLink} target="_blank" rel="noreferrer"><InstagramIcon /></a>
@@ -72,7 +71,6 @@ const SingleCreator: FC<{ params: { id: string } }> = async ({ params }) => {
                 </div>
             </div>
             <div className="pt-[10px] border-t-[1px] border-[#858584]">
-                <ContnetPage singleData={singleData} />
             </div>
         </section >
     )
