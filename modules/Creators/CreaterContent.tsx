@@ -14,7 +14,7 @@ const CreaterContent: FC<{ creators: CreatorType[] }> = ({ creators }) => {
                 <div className='flex items-center justify-between mb-[60px]'>
                     <div>
                         <Heading tag='h2'>{t("topCreators")}</Heading>
-                        <Text>{t("checkoutTopRatedCreatorsOnTheNFTMarketplace")}</Text>
+                        <Text>{t("topcreatoes")}</Text>
                     </div>
                     <Link href={"/rankings"}>
                         <Button icon={<RoketaIcon />} iconPosition='left'>{t("viewRankings")}</Button>

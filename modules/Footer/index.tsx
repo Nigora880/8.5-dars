@@ -16,7 +16,7 @@ const Footer = () => {
                         <Link href={"/"}>
                             <CustomImage classList="!mb-[20px] sm:!mb-[30px]" src="/site-logo.svg" alt="site logo" W={243} H={32} />
                         </Link>
-                        <Text classList="!mb-[20px]">{t("nftMarketplaceUICreatedWithAnimaForFigma")}</Text>
+                        <Text classList="!mb-[20px]">{t("animaforfigma")}</Text>
                         <Text classList="!mb-[15px]">{t("joinOurCommunity")}</Text>
                         <div className="flex gap-[10px] items-center text-[#858584]">
                             {mediaList.map((item: ReactNode, index: number) => <Link className="hover:scale-[1.2] duration-300" key={index + 1} href={"/"}>{item}</Link>)}

@@ -17,15 +17,15 @@
     },
     "collectionContent":{
         "trendingCollection":"Trending Collection",
-        "checkoutOurWeeklyUpdatedTrendingCollection":"Checkout our weekly updated trending collection."
+        "updatedcollection":"Checkout our weekly updated trending collection."
     },
     "creatorsContent":{
         "topCreators": "Top creators",
-        "checkoutTopRatedCreatorsOnTheNFTMarketplace":"Checkout Top Rated Creators on the NFT Marketplace",
+        "topcreatoes":"Checkout Top Rated Creators on the NFT Marketplace",
         "viewRankings":"View Rankings"
     },
     "footerContent":{
-        "nftMarketplaceUICreatedWithAnimaForFigma":"NFT marketplace UI created with Anima for Figma.",
+        "animaforfigma":"NFT marketplace UI created with Anima for Figma.",
         "joinOurCommunity":"Join our community",
         "explore":"Explore",
         "marketplace":"Marketplace",

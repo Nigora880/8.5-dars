@@ -17,15 +17,15 @@
     },
     "collectionContent": {
         "trendingCollection": "Популярная коллекция",
-        "checkoutOurWeeklyUpdatedTrendingCollection": "Ознакомьтесь с нашей еженедельно обновляемой популярной коллекцией."
+        "updatedcollection": "Ознакомьтесь с нашей еженедельно обновляемой популярной коллекцией."
     },
     "creatorsContent": {
         "topCreators": "Топ авторы",
-        "checkoutTopRatedCreatorsOnTheNFTMarketplace": "Познакомьтесь с самыми высоко оценёнными создателями на NFT-маркетплейсе",
+        "topcreatoes": "Познакомьтесь с самыми высоко оценёнными создателями на NFT-маркетплейсе",
         "viewRankings": "Посмотреть рейтинги"
     },
     "footerContent": {
-        "nftMarketplaceUICreatedWithAnimaForFigma": "Интерфейс NFT-маркетплейса создан с помощью Anima для Figma.",
+        "animaforfigma": "Интерфейс NFT-маркетплейса создан с помощью Anima для Figma.",
         "joinOurCommunity": "Присоединяйтесь к нашему сообществу",
         "explore": "Исследовать",
         "marketplace": "Маркетплейс",

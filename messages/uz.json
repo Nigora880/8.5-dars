@@ -17,15 +17,15 @@
     },
     "collectionContent": {
         "trendingCollection": "Mashhur to‘plam",
-        "checkoutOurWeeklyUpdatedTrendingCollection": "Haftasiga yangilanadigan mashhur to‘plamimiz bilan tanishing."
+        "updatedcollection": "Haftasiga yangilanadigan mashhur to‘plamimiz bilan tanishing."
     },
     "creatorsContent": {
         "topCreators": "Eng yaxshi ijodkorlar",
-        "checkoutTopRatedCreatorsOnTheNFTMarketplace": "NFT bozoridagi eng yuqori baholangan ijodkorlar bilan tanishing.",
+        "topcreatoes": "NFT bozoridagi eng yuqori baholangan ijodkorlar bilan tanishing.",
         "viewRankings": "Reytinglarni ko‘rish"
     },
     "footerContent": {
-        "nftMarketplaceUICreatedWithAnimaForFigma": "NFT marketplace UI Anima yordamida Figma uchun yaratilgan.",
+        "animaforfigma": "NFT marketplace UI Anima yordamida Figma uchun yaratilgan.",
         "joinOurCommunity": "Jamiyatimizga qo‘shiling",
         "explore": "Kashf eting",
         "marketplace": "Bozor",
